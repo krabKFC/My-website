@@ -5,12 +5,11 @@
         <style>
         body {
             background-color: #e9bacf;
-            font-family: "Courier New", monospace;
+            font-family: "comic sans ms", monospace;
             margin: 0 auto;
         }
         h1 {
-            color: #6c203e;
-            text-align: center;
+            color: white;
         }
         strong {
             color: #c24378;
@@ -18,31 +17,52 @@
         h3 {
             color: #6c203e;
         }
+        h2 {
+            color: #6c203e;
+        }
         .intro {
-            background-color: #e2a1bd;
+            background-color: #6c203e;
             color: black;
             border-radius: 20px;
             font-size: 40px;
-            max-width: 600px;
+            text-align: center;
+            margin: 10px;
         }
         hr {
             color: #e2a1bd
         }
-        .container {
+        .container_g {
             display: flex;
-            align-items: center;
-            gap: 20px;
-            }
+            flex-direction: row;
+        }
 
-        .container img {
-            width: 500px;
+        .container_g_soso {
+            display: flex;
+            flex-direction: row;
         }
-        .description {
-            display: direction;
+
+        .container_v_pink_background img {
+            width: 400px;
         }
-        .big_description {
-            display: direction;
+        .container_v {
+            display: flex;
+            flex-direction: column;
+        }
+        .big_container_v {
+            display: flex;
+            flex-direction: column;
             font-size: 30px;
+        }
+        .container_v_pink_background {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #e2a1bd;
+            border-radius: 20px;
+            max-width: 410px;
+            margin: 10px;
+            padding: 15px;
         }
         </style>
     </head>
@@ -53,7 +73,23 @@
 
         </div>
 
+        <div class="container_v_pink_background">
+
         <img src="icon.png" alt="Icon">
+
+        <h2> My social media </h2>
+
+        <div class="container_g_soso">
+
+            <a href="https://t.me/krabKFC">Telegram</a>
+            <a href="https://www.tumblr.com/krabkfc?source=share">Tumblr</a>
+            <a href="https://x.com/krab_kfc">X</a>
+            <a href="https://github.com/krabKFC">GitHub</a>
+            <a href="http://krabkfc.itch.io/">Itch.io</a>
+
+        </div>
+
+        </div>
 
         <h3>Halooo!~</h3>
 
@@ -64,29 +100,33 @@
             My primary language is Russian, but I am also learning English little by little.
             </p>
 
-            <h1> My sosocial media </h1>
-                <a href="https://t.me/krabKFC">Telegram</a>
-                <a href="https://www.tumblr.com/krabkfc?source=share">Tumblr</a>
-                <a href="https://x.com/krab_kfc">X</a>
-                <a href="https://github.com/krabKFC">GitHub</a>
-                <a href="http://krabkfc.itch.io/">Itch.io</a>
+            <div class="container_g">
+
+            <div class="container_v">
 
             <h3>Things I like:</h3>
-
             <ul>
             <li>My bf and all my friend &hearts;</li>
             <li>My cat named Cracker</li>
             <li>Do silly things</li>
             <li>Banana juice</li>
             </ul>
-            <h3>Things I don't like:</h3>
 
+            </div>
+
+            <div class="container_v">
+
+            <h3>Things I don't like:</h3>
             <ul>
             <li>Loud sounds</li>
             <li>Spiders</li>
             <li>Buckwheat</li>
             <li>Toxic people</li>
             </ul>
+
+            </div>
+
+            </div>
         <hr>
         <img src="me_def.PNG" alt="Me def" width=100 hight=100>
         <blockquote>Ty for reading :3</blockquote>
