@@ -17,7 +17,7 @@ h2 {
 }
 .intro {
     background-color: #6c203e;
-    color: black;
+    color: white;
     border-radius: 20px;
     font-size: 40px;
     text-align: center;
@@ -25,7 +25,7 @@ h2 {
 }
 
 hr {
-    color: #e2a1bd
+    color: #e2a1bd;
 }
 
 .container_g {
@@ -80,4 +80,17 @@ hr {
 
 .centeR {
     text-align: center;
+}
+
+a:link {
+    color: white;
+}
+
+a:active {
+    color: #c24378;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
