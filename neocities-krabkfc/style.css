@@ -94,3 +94,10 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.fixed-image {
+  position: fixed;   /* Фиксирует элемент относительно окна браузера */
+  z-index: 1000;     /* Чтобы картинка была поверх остальных элементов */
+  right: 10px;
+  bottom: 0;
+}
