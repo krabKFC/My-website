@@ -66,7 +66,7 @@ hr {
     align-items: center;
     background-color: #e2a1bd;
     border-radius: 20px;
-    max-width: 410px;
+    width: 410px;
     margin: 10px;
     padding: 15px;
 }
@@ -96,8 +96,16 @@ a {
 }
 
 .fixed-image {
-  position: fixed;   /* Фиксирует элемент относительно окна браузера */
-  z-index: 1000;     /* Чтобы картинка была поверх остальных элементов */
+  position: fixed;
+  z-index: 1000;
   right: 10px;
   bottom: 0;
+}
+
+.container_v_indent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    right: 410px;
+    text-align: center;
 }
