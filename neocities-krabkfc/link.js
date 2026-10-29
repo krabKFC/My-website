@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
       container.innerHTML = `
         <div class="container_v_pink_background"</div>
           <a href="index.html">Back to home page</a>
-          <a href="blog.html">*Date* &middot Welcome</a>
+          <a href="blog.html">29.10.2026 &middot Welcome</a>
         `;
     }
 });
